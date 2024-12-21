@@ -19,7 +19,7 @@ const footerIcons = [
   {
     name: "linkedIn",
     component: FaLinkedin,
-    link: "https://www.linkedin.com/in/evioghene-omuabor", // Replace with your actual LinkedIn URL
+    link: "https://www.linkedin.com/in/evioghene-omuabor-01b536199", // Replace with your actual LinkedIn URL
   },
   {
     name: "github",
