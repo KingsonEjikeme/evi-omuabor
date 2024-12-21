@@ -12,7 +12,7 @@ const Education = () => {
           <PageTitle title={"Education"} />
           <div className="grid grid-cols-1 bedar-sc2:grid-cols-2 gap-4">
             {EducationPage.map(
-              ({ degreeType, graduationYear, institution, institutionUrl }) => (
+              ({ degreeType, graduationYear, institution, institutionUrl, grade }) => (
                 <div
                   key={2}
                   className="flex flex-col gap-4 bg-mainColor text-white rounded-md p-5 bedar-sc2:p-8 shadow-md shadow-[#000]/15"
@@ -20,6 +20,7 @@ const Education = () => {
                   <div>
                     <div>{graduationYear}</div>
                     <div className="mt-1">{degreeType}</div>
+                    <div className="mt-1">{grade}</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <LuGraduationCap className="w-7 h-7" />

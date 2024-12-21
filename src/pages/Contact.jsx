@@ -36,10 +36,10 @@ const Contact = () => {
             Contact Me
           </h1>
           <div className="text-center mb-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos autem
-            deserunt maiores quas facere quae qui perferendis iure, dolorem
-            temporibus ipsum fugit ullam eaque soluta cupiditate, eius et
-            officiis veniam.
+            I’m passionate about tech and its impact on the world. I’m a
+            certified Scrum Master with experience in Software Engineering and
+            Project Management. Feel free to reach out to discuss opportunities
+            or collaborate!
           </div>
           <Link
             to={`mailto:${AboutPage.authorContactMail}`}
